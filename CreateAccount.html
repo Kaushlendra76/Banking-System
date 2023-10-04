@@ -1,0 +1,84 @@
+<html>
+<head>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+     .head1{
+        font-size: 50px;
+        color: rgba(8, 8, 113, 0.904);
+        font-weight: bolder;
+        text-align: center;
+        margin-top: -48px;
+    }
+    body{
+        margin: 0 auto;
+        background-position:center;
+        background-size: contain;
+        overflow:initial
+    }
+    .menu{
+        position: sticky;
+            top: 0;
+            padding:10px 0px 10px 0px;
+            color:white;
+            margin: 0 auto;
+            overflow: hidden;
+            font-size: 25px;
+            color: red;
+            font-size: 30px;
+            color: white;
+    }
+    .menu a{
+            float: left;
+            text-align: center;
+            padding: 20px 22px;
+            text-decoration: none;
+            font-size: 20px;
+    }
+</style>
+<body>
+<div class="header">
+
+<img src="pictures\p7.png" alt="logo"/></div>
+<div class="head1">STATE BANK OF INDIA</div>
+</header>
+<nav class="menu">
+<a href="home.html">Home</a>
+<a href="CreateAccount.html">NewAccount</a>
+<a href="Transfer.html">Transfer</a>
+<a href="debit.html">Debit</a></li>
+<a href="credit.html">Credit</a></li>
+<a href="checkbalance.html">Check Balance</a>
+<a href="TransferDetails">TransactionHistory</a>
+<a href="Changepassword.html">Change password</a>
+<a href="LogoutServlet">LogOut</a>
+
+</nav>
+</div>
+<center>
+<div class="image">
+<form action="account">
+                                <p class="heading1">USERNAME</p>
+		 <input type="text" name="txtname" class="inps1"/>
+	                 <p class="heading3">AADHAR NO.</p>
+		 <input type="number" name="adharno" class="inps3"/>
+	                 <p class="heading9">EMAIL ID</p>
+		 <input type="email" name="emailname" class="inps9"/>
+		<p class="heading4">MOBILE NO.</p>
+		 <input type="number" name="mobileno" class="inps4"/>
+		 <p class="heading8">FATHER NAME</p>
+		 <input type="text" name="fathername" class="inps8"/>
+		 <p class="heading5">ACCOUNT TYPE</p>
+		 <input type="text" name="accounttype" class="inps5"/>
+		 <p class="heading6">SUBMIT BALANCE</p>
+		 <input type="number" name="balanceno" class="inps6"/>
+		 <p class="heading7">GENDER</p>
+		 <input type="text" name="gendername" class="inps7"/>
+		<br><input type="submit" value="CREATE" class="singupbutton"/>
+		</form>
+
+</div>
+</body>
+</html>
